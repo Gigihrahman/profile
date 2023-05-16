@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+
+.container {
+    display: flex;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-color: #301E67;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Arial;
+
+
+
+}
+
+.judul {
+    display: inline;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+.img {
+    width: 70%;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+.content {
+    float: left;
+    width: 75%;
+    padding-left: 20px;
+}
+
+.asidecard {
+    box-shadow: 0px 2px 2px 2px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f6f2;
+    text-align: center;
+}
+
+.profile {
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.icon {
+    padding: 10px;
+
+}
+
+.icon a {
+    border-radius: 100%;
+    background-color: #7286D3;
+
+}
+
+.miniicon {
+    width: 50px;
+
+}
+
+body {
+    background-color: #F5EAEA;
+}
+
+
+
+
+aside {
+    width: 20%;
+    float: left;
+
+}
+
+h3 {
+    font-family: 'Georgia';
+    font-size: 15px;
+}
+
+table {
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+table tbody tr th {
+    margin: 8px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Georgia, ;
+
+
+}
+
+
+
+main {
+    overflow: auto;
+}
+
+footer {
+    background-color: #7286D3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
