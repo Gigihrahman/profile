@@ -1,0 +1,9 @@
+runtime: nodejs10
+
+handlers:
+- url: /styles
+  static_dir: styles
+- url: /asset
+  static_dir: asset
+- url: /.*
+  script: index.html
